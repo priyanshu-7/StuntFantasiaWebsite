@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Basic Elements */
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+	
+body{
+margin:0px;
+padding: 0px;
+background:url(resources/gigsieBackground.jpg);
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: normal;
+text-decoration: none;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #FFFFFF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #FFFFFF;
+	}
+a:hover, a:active {
+	text-decoration: none;
+	color: #7d7d7d;
+	display: inline;
+	margin-right: 1.3em;
+	margin-left: 1.3em;
+	}
+acronym {
+	border-bottom: none;
+	}
+	
+/* specific divs */
+
+#container{
+width: 780px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 10px;
+background: url(resources/containerBG.jpg);
+background-repeat:repeat-y;
+}
+	
+#pageHeader{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: normal;
+text-decoration: none;
+width: 780px;
+height: 50px;
+background-image: url(resources/headerBorder.gif);
+background-repeat: no-repeat;
+}
+
+#pageFooter{
+width: 780px;
+background-image: url(resources/footerBorder.gif);
+background-repeat: no-repeat;
+}
+
+#intro {
+clear:both; 
+	margin: 20px 20px 20px 10px; 
+	width: 160px; 
+	float: left;
+}
+
+#intro p {
+	font: italic 10pt/22pt georgia; 
+	text-align:center;
+	}
+
+#linkList {
+	position: absolute;
+	top: 129px;
+	right: 0;
+	left: 158px;
+	bottom: 0px;
+	width: 702px;
+	font: normal 10px verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#linkList ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	}
+
+#linkList li{
+display: inline;
+}
+
+#linkList li a {
+display: inline;
+padding:5px;
+margin: 1px;
+border: 1px solid white;
+width: 100px;
+height: 20px;
+background: #333333;
+color: white;
+text-decoration: none;
+}
+
+#linkList li a:hover {
+background: #666666;
+}

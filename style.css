@@ -1,0 +1,681 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+	
+body{
+margin:0px;
+padding: 0px;
+background:url(resources/gigsieBackground.jpg);
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: normal;
+text-decoration: none;
+}
+
+.button{
+    font:15px Calibri, Arial, sans-serif;
+
+    /* A semi-transparent text shadow */
+    text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+
+    /* Overriding the default underline styling of the links */
+    text-decoration:none !important;
+    white-space:nowrap;
+
+    display:inline-block;
+    vertical-align:baseline;
+    position:relative;
+    cursor:pointer;
+    padding:10px 20px;
+
+    background-repeat:no-repeat;
+
+    /* The following two rules are fallbacks, in case
+       the browser does not support multiple backgrounds. */
+
+    background-position:bottom left;
+    background-image:url('button_bg.png');
+
+    /* CSS3 background positioning property with multiple values. The background
+       images themselves are defined in the individual color classes */
+
+    background-position:bottom left, top right, 0 0, 0 0;
+    background-clip:border-box;
+
+    /* Applying a default border radius of 8px */
+
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+
+    /* A 1px highlight inside of the button */
+
+    -moz-box-shadow:0 0 1px #fff inset;
+    -webkit-box-shadow:0 0 1px #fff inset;
+    box-shadow:0 0 1px #fff inset;
+
+    /* Animating the background positions with CSS3 */
+    /* Currently works only in Safari/Chrome */
+
+    -webkit-transition:background-position 1s;
+    -moz-transition:background-position 1s;
+    -o-transition:background-position 1s;
+    transition:background-position 1s;
+}
+#cssmenu {
+  list-style: none;
+  width: 150px;
+  mine-height: 125px;
+  padding-left: 23px;
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#cssmenu a:link {
+  color: #b8b8b8;
+  font-family: Trebuchet MS;
+  font-size: 14px;
+  height: 23px;
+  display: block;
+  text-decoration: none;
+  padding: 8px 0 0 0px;
+  font-weight: normal;
+}
+#cssmenu a:visited {
+  text-decoration: line-through;
+}
+#cssmenu a:hover {
+  color: #595959;
+}
+#cssmenu a:active {
+  color: #dbdbdb;
+}
+.button:hover{
+
+    /* The first rule is a fallback, in case the browser
+       does not support multiple backgrounds
+    */
+
+    background-position:top left;
+    background-position:top left, bottom right, 0 0, 0 0;
+}
+
+.box333 {
+width:250px;
+padding:10px;
+border:5px solid gray;
+margin:10px;
+box-shadow: 3px 3px 10px 5px #000;position:absolute;
+left:550px;
+top:100px;
+}
+
+.greybox {
+    position: relative;
+    margin: 0 auto 80px;
+    padding: 70px 0 40px;
+    max-width: 840px;
+    text-align: center;
+    background: #C0C0C0;
+    border-radius: 15px;
+}
+
+.greybox:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+       -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+CAPTION.MYTABLE
+  {
+     background-color:#00F;
+     color:white;
+  }
+
+  TABLE.MYTABLE
+  { 
+     font-family:calibri;
+     font-size:12pt;
+	 color:#00G;
+     background-color:0x808080C8;
+     width:450px;
+     border-style:solid;
+     border-color:black;
+     border-width:2px;
+  }
+
+  TH.MYTABLE
+  {
+     font-size:12pt;
+     color:white;
+	 background-color:#09F;
+  }
+
+
+  TR.MYTABLE
+  { 
+  }
+
+  TD.MYTABLE
+  {  
+     font-size:12pt;
+     background-color:#FFFFFF
+     color:white;
+     text-align:center;
+  }
+.style-glow
+{
+color: #FFFFFF;
+font-weight: 700;
+font-size: 18px;
+}
+.style-glow:hover
+{
+text-shadow: 0 0 15px #FFFFFF;
+transform: scale(1.05);
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #7D7764;
+}
+
+h1 {
+	font-size: 2em;
+        text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h2 {
+	font-size: 0.1em;
+}
+
+h3 {
+	font-size: 1.6em;
+        text-transform: uppercase;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #C1002D;
+}
+
+a:hover {
+}
+
+#wrapper {
+	overflow: hidden;
+	background: #FFFFFF url(images/img02.png) no-repeat center top;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+/* Header */
+
+#header-wrapper {
+	overflow: hidden;
+	height: 600px;
+}
+#header {
+	width: 1200px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	overflow: hidden;
+	font-family: 'Oswald', sans-serif;
+}
+
+#logo h1, #logo p {
+	text-transform: uppercase;
+}
+
+#logo h1 {
+	padding: 200px 0px 0px 50px;
+	letter-spacing: -1px;
+	font-size: 100px;
+}
+
+#logo p {
+	margin-top: -20px;
+	padding: 0px 0px 0px 55px;
+	
+	font-size: 20px;
+	font-weight: 300;
+	color: #B8D1EE;
+}
+
+#logo p a {
+	color: #696969;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+##menu-wrapper {
+	overflow: hidden;
+	height: 60px;
+	background: #00FF00;
+}
+
+#menu {
+	overflow: hidden;
+	height: 60px;
+        background: #0080FF;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 30px;
+	line-height: 60px;
+	border: none;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #008040;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+}
+/* Page */
+
+#page {
+	overflow: hidden;
+	padding: 50px 0px 40px 0px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 690px;
+	margin-right: 24px;
+	padding: 0px 0px 0px 0px;
+}
+
+#content h2 {
+	padding: 0px 0px 20px 0px;
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 200;
+	color: #262626;
+}
+
+/* Sidebar */
+
+#sidebar1 {
+	float: left;
+	width: 180px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color: #787878;
+}
+
+#sidebar1 h2 {
+	padding: 0px 0px 20px 0px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: #C1002D;
+}
+
+#sidebar2 {
+	float: right;
+	width: 282px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color: #787878;
+}
+
+#sidebar2 h2 {
+	padding: 0px 0px 20px 0px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: #C1002D;
+}
+
+#sidebar2 a {
+	border: none;
+}
+
+#sidebar2 a:hover {
+	text-decoration: underline;
+}
+
+/* Three Column Footer Content */
+#footer-bg {
+	overflow: hidden;
+	padding: 50px 0px;
+}
+
+#footer-content {
+	color: #FFB3C5;
+}
+
+#footer-content h2 {
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 200;
+	color: #FFFFFF;
+}
+
+#footer-content a {
+	color: #FFB3C5;
+}
+
+#footer-content a:hover {
+	text-decoration: underline;
+}
+
+#column1 {
+	float: left;
+	width: 280px;
+	margin-right: 30px;
+}
+
+#column1 p {
+	line-height: 1;
+}
+
+#column2 {
+	float: left;
+	width: 280px;
+	margin-right: 30px;
+}
+
+#column3 {
+	float: left;
+	width: 280px;
+}
+
+#column4 {
+	float: right;
+	width: 260px;
+}
+
+
+/* Footer */
+
+#footer {
+   position: fixed;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:0080FF;		
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 10px;
+	line-height: normal;
+	text-align: center;
+	color: #C59C9C;
+}
+
+#footer a {
+	color: #C59C9C;
+}
+
+#marketing {
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding: 20px 0px 10px 0px;
+	border-top: 1px solid #E3E3E3;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+#marketing .text1 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: -2px;
+	text-transform: lowercase;
+	font-size: 34px;
+	color: #345E9B;
+}
+
+#marketing .text2 {
+	float: right;
+}
+
+#marketing .text2 a {
+	display: block;
+	width: 252px;
+	height: 38px;
+	padding: 15px 0px 0px 0px;
+	background: url(images/img07.jpg) no-repeat left top;
+	letter-spacing: -2px;
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.box1 {
+	overflow: hidden;
+	height: 300px;
+}
+
+.list-style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list-style1 li {
+	padding: 7px 0px 7px 0px;
+	border-top: 1px dashed #E7E2DC;
+}
+
+.list-style1 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+.list-style2 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list-style2 li {
+	padding: 5px 0px 5px 0px;
+	border-top: 1px solid #EEEEEE;
+}
+
+.list-style2 a {
+	padding-left: 15px;
+	background: url(images/img10.png) no-repeat left 50%;
+	color: #717171;
+}
+
+.list-style2 a:hover {
+	text-decoration: underline;
+	color: #606060;
+}
+
+.list-style2 .first {
+	padding-top: 0px;
+	border: none;
+}
+
+.list-style3 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list-style3 li {
+	padding: 5px 0px 5px 0px;
+	border-top: 1px solid #890020;
+}
+
+.list-style3 a {
+	padding-left: 15px;
+	background: url(images/img10.png) no-repeat left 50%;
+	color: #FFB3C5;
+}
+
+.list-style3 a:hover {
+	text-decoration: underline;
+}
+
+.list-style3 .first {
+	padding-top: 0px;
+	background: none;
+	border: none;
+}
+
+
+/* Three Column Content */
+
+#four-column {
+	overflow: hidden;
+	padding: 30px 0px 30px 0px;
+	border-top: 1px solid #EEEEEE;
+	color: #626262;
+}
+
+#four-column #tbox1 {
+	float: left;
+	width: 282px;
+	margin-right: 24px;
+}
+
+#four-column #tbox2 {
+	float: left;
+	width: 282px;
+	margin-right: 24px;
+}
+
+#four-column #tbox3 {
+	float: left;
+	width: 282px;
+}
+
+#four-column #tbox4 {
+	float: right;
+	width: 282px;
+}
+
+.box-style {
+	background: #191919 url(images/img05.jpg) repeat;
+}
+
+.box-style h2 {
+	padding: 10px 0px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 200;
+	color: #515151;
+}
+
+.box-style .image {
+	width: 320px;
+}
+
+.box-style .arrow {
+	background: url(images/img06.png) no-repeat right top;
+}
+
+.box-style .content {
+	overflow: hidden;
+	padding: 30px;
+}
+
+
+.divider {
+	overflow: hidden;
+	height: 50px;
+	background: url(images/img04.png) no-repeat center top;
+}
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+#box:before{
+    -webkit-transform: skew(0deg, 4deg);
+    box-shadow:5px 5px 5px #000;
+        position:absolute;
+    background-color:black;
+    bottom:-5px;
+    right:0;
+    content:'';
+    z-index:-6;
+    width:220px;
+    height:175px;        
+    right:5px;
+}
